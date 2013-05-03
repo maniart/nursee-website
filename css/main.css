@@ -1,0 +1,374 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	background: url('../img/bg.jpg') center center no-repeat fixed transparent;
+	background-size: cover;	
+}
+.container{
+	float: left;
+	width: 100%;
+}
+.home{
+	
+}
+.logo{
+	background: url('../img/logo.png') center center no-repeat transparent;
+	text-align: center;
+}
+.home .logo{
+	float: left;
+	width: 100%;
+	height: 200px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	margin-bottom: 0;
+}
+
+.home .content{
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+}
+.blowUp .content,
+.blowUp .sandwich,
+.blowUp .showApp{
+	float: left;
+	width: 100%;
+}
+.blowUp .content,
+.blowUp .sandwich{
+	background: rgba(255,255,255,1);
+}
+.showApp{
+	background: rgba(20,20,20,1);
+}
+.overlayBlack{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.3);
+	z-index: 1;
+	width: 100%;
+}
+.home h1,
+.home h2,
+.home h3{
+	text-align: center;
+	float: left;
+	width: 100%;
+	color: #fff;	
+	margin: 0;
+	
+}
+.home h2{
+	font-size: 12em;
+	font-weight: 100;
+	line-height: .8;
+	padding: 0;
+	margin:0;
+}
+.home h3{
+	font-size: 4em;
+	font-weight: 300;
+	color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 300;
+}
+h1{
+	font-size: 3em;
+	font-weight: 300;
+}
+h2{
+	font-size: 2.85em;
+	font-weight: 300;
+}
+h3{
+	font-size: 2.6em;
+	font-weight: 300;
+}
+h4{
+	font-size: 2.45em;
+	font-weight: 400;
+}
+h5{
+	font-size: 2.3em;
+	font-weight: 400;
+}
+h6{
+	font-size: 2.2em;
+	font-weight: 400;
+}
+.cage{
+	
+	background: url('../img/mani-bw.png') no-repeat grey;
+	background-position-y: center;
+	background-position-x: center;
+	position: fixed;
+	top: 200px;
+	left: -100%;
+	width: 100%;
+	z-index: 1;
+	height: 200px;
+	opacity: 1;
+}
+
+.module{
+	position: fixed;
+	left: -100%;
+	width: 600px;
+	height: 450px;
+	background-position:center center;
+	background-repeat: no-repeat;
+	background-color:  transparent;
+}
+.iphoneSlanted{
+	background-image: url('../img/layers/iphone-and-logo.png');
+}
+.patientInfo{
+	background-image: url('../img/layers/patient-information.png');
+}
+.appts{
+	background-image: url('../img/layers/appts.png');
+}
+.diagnosis{
+	background-image: url('../img/layers/diagnosis.png');
+}
+.pmh{
+	background-image: url('../img/layers/pmh.png');	
+}
+.medications{
+	background-image: url('../img/layers/medications.png');
+}
+.allergies{
+	background-image: url('../img/layers/allergies.png');
+}
+.immunization{
+	background-image: url('../img/layers/immunization.png');
+}
+.labRecords{
+	background-image: url('../img/layers/lab-records.png');
+}
+.imageRecords{
+	background-image: url('../img/layers/image-records.png');
+}
+.lifeStyle{
+	background-image: url('../img/layers/lifestyle.png');
+}
+
+.blowUp{
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
